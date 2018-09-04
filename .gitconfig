@@ -1,0 +1,13 @@
+[user]
+  name = Joey Cheung
+  email = joeycheung0@gmail.com
+
+[github]
+  user = JoeyCheung
+
+[core]
+  excludesfile = ~/.gitignore_global
+  editor = vim
+  filemode = false
+  trustctime = false
+    autocrlf = input
