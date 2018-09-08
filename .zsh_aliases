@@ -3,9 +3,3 @@
 #common shortcuts
 
 
-
-# Directory traversal
-
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
