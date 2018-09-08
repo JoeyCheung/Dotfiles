@@ -1,1 +1,11 @@
 #fill out shortcuts here with alias 
+
+#common shortcuts
+
+
+
+# Directory traversal
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
