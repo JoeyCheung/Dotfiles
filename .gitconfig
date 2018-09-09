@@ -1,6 +1,6 @@
 [user]
-	email = joeycheung0@gmail.com
-	name = Joey Cheung
+  email = joeycheung0@gmail.com
+  name = Joey Cheung
 
 [github]
   user = JoeyCheung
@@ -10,7 +10,7 @@
   editor = vim
   filemode = false
   trustctime = false
-    autocrlf = input
+  autocrlf = input
 
 [alias]
   cl = clone
