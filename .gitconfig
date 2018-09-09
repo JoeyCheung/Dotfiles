@@ -1,6 +1,6 @@
 [user]
-  name = Joey Cheung
-  email = joeycheung0@gmail.com
+	email = joeycheung0@gmail.com
+	name = Joey Cheung
 
 [github]
   user = JoeyCheung
@@ -11,3 +11,9 @@
   filemode = false
   trustctime = false
     autocrlf = input
+
+[alias]
+  cl = clone
+  ci = commit
+  co = checkout
+  br = branch 
