@@ -10,6 +10,10 @@ if [[ ( "$SHLVL" -eq 1 && ! -o LOGIN ) && -s "${ZDOTDIR:-$HOME}/.zprofile" ]]; t
   source "${ZDOTDIR:-$HOME}/.zprofile"
 fi
 
+typeset -U path
+
+# export path
+
 # Make vim the default editor
 export EDITOR='vim';
 export SHELL='/bin/zsh';
