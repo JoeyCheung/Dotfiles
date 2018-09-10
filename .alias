@@ -1,0 +1,10 @@
+alias _="sudo"
+alias g="git"
+
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+
+alias ni="npm install"
+alias nu="npm uninstall"
+alias nup="npm update"
