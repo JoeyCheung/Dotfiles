@@ -1,0 +1,17 @@
+surfraw (quick lookup for websites ex: google, amazon, etc)
+w3m (terminal internet browsing)
+zsh
+prezto
+i3
+polybar
+rofi (pop up menus)
+qutebrowser (browsing the internet)
+godot
+conda
+eclipse-java
+eclipse-cpp
+vscode
+pycharm
+android-studio
+
+move to usr/bin file and chmod 777 permisions of the folder
