@@ -14,5 +14,6 @@ pycharm
 android-studio
 vim
 tty-clock
+rxvt (urxvt)
 
 move to usr/bin file and chmod 777 permisions of the folder
