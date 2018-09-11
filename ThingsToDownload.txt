@@ -12,5 +12,6 @@ eclipse-java
 vscode
 pycharm
 android-studio
+vim
 
 move to usr/bin file and chmod 777 permisions of the folder
