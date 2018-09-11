@@ -9,7 +9,6 @@ qutebrowser (browsing the internet)
 godot
 conda
 eclipse-java
-eclipse-cpp
 vscode
 pycharm
 android-studio
