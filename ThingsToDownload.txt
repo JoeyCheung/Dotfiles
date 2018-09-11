@@ -13,5 +13,9 @@ vscode
 pycharm
 android-studio
 vim
+tty-clock
 
 move to usr/bin file and chmod 777 permisions of the folder
+
+#commands
+tty-clock -c -C 2 -t
