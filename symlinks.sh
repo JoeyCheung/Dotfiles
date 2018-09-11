@@ -10,3 +10,4 @@ ln -sf "$DOTFILES_DIR/.zpreztorc" ~
 ln -sf "$DOTFILES_DIR/.zshenv" ~
 ln -sf "$DOTFILES_DIR/.xinitrc" ~
 ln -sf "$DOTFILES_DIR/.vimrc" ~
+ln -sf "$DOTFILES_DIR/.config" ~
