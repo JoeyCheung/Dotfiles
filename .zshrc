@@ -11,3 +11,17 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+
+##########
+# alias' #
+##########
+
+# common shortcut
+alias clock='tty-clock -c -C 2 -t'
+alias reboot='sudo systemctl reboot'
+alias poweroff='sudo systemctl poweroff'
+
+# Directory traversal
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
