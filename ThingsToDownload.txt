@@ -4,7 +4,7 @@ zsh
 prezto
 i3-gaps
 polybar
-rofi (pop up menus)
+rofi (replacement for dmenu)
 qutebrowser (browsing the internet)
 godot
 conda
@@ -15,5 +15,7 @@ android-studio
 vim
 tty-clock
 rxvt (urxvt)
+neofetch
+ranger
 
 move to usr/bin file and chmod 777 permisions of the folder
