@@ -2,7 +2,7 @@ surfraw (quick lookup for websites ex: google, amazon, etc)
 w3m (terminal internet browsing)
 zsh
 prezto
-i3
+i3-gaps
 polybar
 rofi (pop up menus)
 qutebrowser (browsing the internet)
