@@ -15,5 +15,6 @@ android-studio
 vim
 tty-clock
 rxvt (urxvt)
+neofetch (displays info about your system)
 
 move to usr/bin file and chmod 777 permisions of the folder
