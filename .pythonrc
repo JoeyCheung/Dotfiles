@@ -1,1 +1,4 @@
-print("how_use_pythonstartup")
+print("how_to_use_pythonstartup")
+
+import pandas
+import numpy
