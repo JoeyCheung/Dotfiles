@@ -13,3 +13,4 @@ ln -sf "$DOTFILES_DIR/.vimrc" ~
 ln -sf "$DOTFILES_DIR/.config" ~
 ln -sf "$DOTFILES_DIR/.pythonrc" ~
 ln -sf "$DOTFILES_DIR/.gtkrc-2.0" ~
+ln -sf "$DOTFILES_DIR/.Xresources" ~
