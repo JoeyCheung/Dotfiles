@@ -77,6 +77,7 @@ set $locker "i3lock-fancy -t $USER@$HOSTNAME && sleep 1"
 exec --no-startup-id numlockx on
 exec --no-startup-id polybar -c ~/.config/i3/polybar/topbar.ini 
 exec_always --no-startup-id feh --bg-center ~/.config/i3/wallpapers/bg.png
+exec --no-startup-id compton -b
 
 ###########
 # layouts #
