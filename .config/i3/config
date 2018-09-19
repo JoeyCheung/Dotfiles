@@ -75,13 +75,16 @@ for_window [instance="pcmanfm" class="Pcmanfm"] floating enable
 
 set $locker "i3lock-fancy -t $USER@$HOSTNAME && sleep 1"
 exec --no-startup-id numlockx on
-exec --no-startup-id polybar -c ~/.config/i3/polybar/topbar.ini topbar
+exec --no-startup-id polybar -c ~/.config/i3/polybar/topbar.ini 
 exec_always --no-startup-id feh --bg-center ~/.config/i3/wallpapers/bg.png
 
 ###########
 # layouts #
 ###########
 exec --no-startup-id i3-lm l 1 ~/.config/i3/layouts/busy.json
+
+# screen shot
+bindsym --release $mod+Print exec scrot -q 100 '%Y-%m-%d_%H%M%S_$wx$h.png' -e 'mv $f ~/Pictures/screenshots/'
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
