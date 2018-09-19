@@ -40,7 +40,6 @@ margin-top = 5
 margin-bottom = 5
 
 [bar/topbar]
-monitor = ${env:MONITOR:HDMI-0}
 width = 95%
 height = 30
 offset-x = 50
@@ -205,7 +204,7 @@ label-background = ${colors.tertiary}
 [module/wlan]
 type = custom/script
 interval = 1
-exec = "nmcli d show wlp0s26u1u5 | grep 'GENERAL.CONNECTION' | awk '{print $2}'"
+exec = "nmcli d show wlp8s0 | grep 'GENERAL.CONNECTION' | awk '{print $2}'"
 format-prefix = 
 format-prefix-padding = 2
 format-prefix-background = ${colors.tertiary}
@@ -374,4 +373,3 @@ menu-0-1-background = ${colors.background-alt}
 ;menu-0-1-underline = ${colors.secondary}
 
 ; vim:ft=dosini
-
