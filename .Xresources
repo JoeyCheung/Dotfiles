@@ -1,0 +1,94 @@
+! .Xresources
+! author: borysn
+! license: whats a license?
+
+!!!!!!!!!!!!
+! x config !
+!!!!!!!!!!!!
+
+Xcursor.theme: gentoo
+Xcursor.size: 24
+
+!!!!!!!!!
+! dzen2 !
+!!!!!!!!!
+
+dzen2.font: noto
+dzen2.foreground: #d66c94
+dzen2.background: #1b123a
+
+!!!!!!!!!
+! URxvt !
+!!!!!!!!!
+
+! general settings
+URxvt.saveLines: 100000
+URxvt.scrollBar: False
+URxvt*scrollTtyOutput: false
+URxvt*scrollWithBuffer: true
+URxvt*scrollTtyKeypress: true
+URxvt.scrollstyle: rxvt
+URxvt*termName: rxvt-256color
+URxvt.urgentOnBell: True
+URxvt.cursorBlink: True
+URxvt.cursorUnderline: False
+URxvt.iso14755: False
+URxvt.internalBorder: 30
+! urls
+URxvt*depth: 32
+!URxvt.transparent: true
+!URxvt.shading: 10
+
+! extensions
+URxvt.perl-ext-common: default,clipboard,keyboard-select,url-select
+URxvt.urlLauncher: xdg-open
+URxvt.urlButton: 1
+URxvt.underlineURLs: True
+
+URxvt.copyCommand:  xclip -i -selection clipboard
+URxvt.pasteCommand: xclip -o -selection clipboard
+
+! keybindings
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.keysym.Mod4-c: perl:clipboard:copy
+URxvt.keysym.Mod4-v: perl:clipboard:paste
+URxvt.keysym.Mod4-C-v: perl:clipboard:paste_escaped
+!URxvt.keysym.M-c: perl:clipboard:copy
+!URxvt.keysym.M-v: perl:clipboard:paste
+!URxvt.keysym.M-C-v: perl:clipboard:paste_escaped
+URxvt.keysym.M-Escape: perl:keyboard-select:activate
+URxvt.keysym.C-Escape: perl:keyboard-select:activate
+URxvt.keysym.M-u: perl:url-select:select_next
+
+! font
+
+URxvt.font: xft:Hack:pixelsize=14:style=regular:antialias=true:hinting=true xft:Symbola:size=14
+URxvt.boldFont: xft:Hack:pixelsize=14:style=bold:antialias=true:hinting=true
+URxvt.letterSpace: -1
+Xft*dpi: 96
+Xft*antialias: True
+Xft*hinting: Full
+
+! colors
+
+URxvt*background: [85]#434871
+URxvt.foreground: #f3f4f5
+
+URxvt.color0  : #88406e
+URxvt.color8  : #88406e
+!#9f436c
+URxvt.color1  : #9763f6
+URxvt.color9  : #9763f6
+URxvt.color2  : #da6c94
+URxvt.color10 : #da6c94
+URxvt.color3  : #45b5c2
+URxvt.color11 : #45b5c2
+URxvt.color4  : #aa74f8
+URxvt.color12 : #aa74f8
+URxvt.color5  : #7b51dd
+URxvt.color13 : #7b51dd
+URxvt.color6  : #d35a7c
+URxvt.color14 : #d35a7c
+URxvt.color7  : #3c3760
+URxvt.color15 : #3c3760
