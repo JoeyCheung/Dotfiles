@@ -20,5 +20,6 @@ ranger
 numlockx
 compton
 scrot
+cava
 
 move to usr/bin file and chmod 777 permisions of the folder
