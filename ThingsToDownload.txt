@@ -15,11 +15,10 @@ android-studio
 vim
 tty-clock
 rxvt (urxvt)
-<<<<<<< HEAD
 neofetch (displays info about your system)
-=======
-neofetch
 ranger
->>>>>>> 3a5f87a39e17bc01d4e2e47efa7f7f88efc10bbb
+numlockx
+compton
+scrot
 
 move to usr/bin file and chmod 777 permisions of the folder
