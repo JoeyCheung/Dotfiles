@@ -1,0 +1,23 @@
+#!/usr/bin/pulseaudio -nF
+
+#
+# default.pa
+# author: borysn
+# license: what's a license?
+#
+
+# include pulse system settings
+.include /etc/pulse/default.pa
+
+# switch to newly connected device
+load-module module-switch-on-connect
+
+# fix out-of-sync over network
+#load-module module-udev-detect tsched=0
+
+# don't idle device
+unload-module module-suspend-on-idle
+
+# default sink
+set-default-sink alsa_output.usb-Logitech_Logitech_G35_Headset-00.analog-stereo
+set-default-source alsa_input.usb-Logitech_Logitech_G35_Headset-00.analog-mono
