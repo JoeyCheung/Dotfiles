@@ -21,7 +21,5 @@ numlockx
 compton
 scrot
 cava
-cmus
-lemonbar
 
 move to usr/bin file and chmod 777 permisions of the folder
