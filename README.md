@@ -1,2 +1,3 @@
 # Dotfiles
-I lost everything in my arch linux so I'm going to learn dotfiles so that it'll never happen to me ever again. Made me so mad
+
+![2018-09-19_144842_1920x1080](https://user-images.githubusercontent.com/30446022/45889706-1ed44180-bd8f-11e8-9a9e-07ef7399dd8b.png)
