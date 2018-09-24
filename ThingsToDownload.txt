@@ -21,7 +21,6 @@ numlockx
 compton
 scrot
 cava
-apache maven
 apach spark
 
 move to usr/bin file and chmod 777 permisions of the folder
