@@ -22,5 +22,7 @@ compton
 scrot
 cava
 apach spark
+nodejs (with npm)
+electron
 
 move to usr/bin file and chmod 777 permisions of the folder
