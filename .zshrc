@@ -33,7 +33,3 @@ alias ....="cd ../../.."
 export PATH=/home/nyjoey/anaconda3/bin:$PATH
 export PATH=/home/nyjoey/android-studio/bin:$PATH
 export PATH=/home/nyjoey/visual-studio-code-bin/src/VSCode-linux-x64:$PATH
-
-# auto-source
-
-trap "source ~/.zshrc" USR1
