@@ -76,7 +76,7 @@ mv visual-studio-code-bin $HOME
 #install python modules
 pip install scrapy
 pip install tensorflow
-pip install discord.py
+pip install discord
 pip install selenium
 pip install gym
 pip install numpy
