@@ -20,6 +20,7 @@ fi
 alias clock='tty-clock -c -C 2 -t'
 alias reboot='sudo systemctl reboot'
 alias poweroff='sudo systemctl poweroff'
+alias rmdir='rm -rf'
 
 # Directory traversal
 alias ..="cd .."
