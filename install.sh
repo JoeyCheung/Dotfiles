@@ -27,7 +27,7 @@ cd src/VSCode-linux-x64
 chmod 777 code
 mv code vscode
 cd ../../..
-mv visual-studio-code-bin /nyjoey
+mv visual-studio-code-bin $HOME
 
 #install android studio
 
@@ -69,7 +69,9 @@ mv visual-studio-code-bin /nyjoey
 
 #install scrot
 
-#install nodejs
+#install compton
+
+#install feh
 
 #install python modules
 pip install scrapy
