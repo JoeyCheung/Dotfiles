@@ -29,7 +29,9 @@ mv code vscode
 cd ../../..
 mv visual-studio-code-bin $HOME
 
-#install android studio
+#install android studio (finish this one)
+wget https://dl.google.com/dl/android/studio/ide-zips/3.2.0.26/android-studio-ide-181.5014246-linux.zip
+unzip android-studio-ide-181.5014246-linux.zip
 
 #install polybar
 
