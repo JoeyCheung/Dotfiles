@@ -61,6 +61,16 @@ mv visual-studio-code-bin /nyjoey
 
 #install rxvt-unicode
 
+#install w3m
+
+#install surfraw
+
+#install numlockx
+
+#install scrot
+
+#install nodejs
+
 #install python modules
 pip install scrapy
 pip install tensorflow
