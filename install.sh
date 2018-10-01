@@ -34,8 +34,10 @@ mv visual-studio-code-bin $HOME
 #install polybar
 
 #install eclipse
+sudo pacman -S eclipse-java
 
 #install pycharm
+sudo pacman -S pycharm-community-edition
 
 #install tty-clock
 
@@ -46,32 +48,45 @@ mv visual-studio-code-bin $HOME
 #install cava
 
 #install neofetch
+sudo pacman -S neofetch
 
 #install ranger
+sudo pacman -S ranger
 
 #install i3-gaps
+sudo pacman -S i3-gaps
 
 #install qutebrowser
+sudo pacman -S qutebrowser
 
 #install rofi
+sudo pacman -S rofi
 
 #install vim
+sudo pacman -S vim
 
 #install prezto
 
 #install rxvt-unicode
+sudo pacman -S rxvt-unicode
 
 #install w3m
+sudo pacman -S w3m
 
 #install surfraw
+sudo pacman -S surfraw
 
 #install numlockx
+sudo pacman -S numlockx
 
 #install scrot
+sudo pacman -S scrot
 
 #install compton
+sudo pacman -S compton
 
 #install feh
+sudo pacman -S feh
 
 #install python modules
 pip install scrapy
