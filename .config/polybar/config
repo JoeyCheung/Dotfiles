@@ -158,6 +158,8 @@ type = internal/mpd
 
 format-online = <label-song>  <icon-prev> <icon-seekb> <icon-stop> <toggle> <icon-seekf> <icon-next>  <icon-repeat> <icon-random>
 
+format-offline = <label-offline>
+
 label-song-maxlen = 25
 label-song-ellipsis = true
 

@@ -1,3 +1,5 @@
+#Files that use wget might have to be done manually because of updates
+
 #changing permisions
 cd $HOME
 cd ../..
@@ -26,14 +28,24 @@ tar -xvf visual-studio-code-bin-1.27.2-1-x86_64.pkg.tar.xz
 cd src/VSCode-linux-x64
 chmod 777 code
 mv code vscode
-cd ../../..
-mv visual-studio-code-bin $HOME
 
 #install android studio (finish this one)
 wget https://dl.google.com/dl/android/studio/ide-zips/3.2.0.26/android-studio-ide-181.5014246-linux.zip
 unzip android-studio-ide-181.5014246-linux.zip
+cd android-studio/bin
+chmod 777 studio.sh
+mv studio.sh android-studio
+cd ../..
+rm -rf android-studio-ide-181.5014246-linux.zip
+mv android-studio $HOME
 
 #install polybar
+$HOME
+git clone --branch 3.2 --recursive https://github.com/jaagr/polybar
+mkdir polybar/build
+cd polybar/build
+cmake ..
+sudo make install
 
 #install eclipse
 sudo pacman -S eclipse-java
@@ -42,10 +54,29 @@ sudo pacman -S eclipse-java
 sudo pacman -S pycharm-community-edition
 
 #install tty-clock
+$HOME
+git clone https://aur.archlinux.org/tty-clock.git
+cd tty-clock
+makepkg
+tar -xvf tty-clock-2.3-1-x86_64.pkg.tar.xz
+cd src/tty-clock-2.3
+sudo make install
 
-#install apache spark
+#install apache spark 
+$HOME
+apache.claz.org/spark/spark-2.3.2/spark-2.3.2-bin-hadoop2.7.tgz
+tar -xvf spark-2.3.2-bin-hadoop2.7.tgz
+rm -rf spark-2.3.2-bin-hadoop2.7.tgz
+mv spark-2.3.2-bin-hadoop2.7 $HOME
 
 #install electron
+$HOME
+sudo pacman -S nodejs
+sudo pacman -S npm
+git clone https://github.com/electron/electron-api-demos
+cd electron-api-demos
+npm install
+npm start
 
 #install cava
 
@@ -68,6 +99,14 @@ sudo pacman -S rofi
 sudo pacman -S vim
 
 #install prezto
+$HOME
+zsh
+git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+setopt EXTENDED_GLOB
+for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
+  ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
+done
+chsh -s /bin/zsh
 
 #install rxvt-unicode
 sudo pacman -S rxvt-unicode
