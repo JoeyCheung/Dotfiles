@@ -78,7 +78,8 @@ cd electron-api-demos
 npm install
 npm start
 
-#install cava
+#install cava (might have messed this one up can't remember exactly how but shouldn't be too difficult to do again)
+sudo pacman -S base-devel fftw ncurses alsa-lib iniparser pulseaudio
 
 #install neofetch
 sudo pacman -S neofetch
