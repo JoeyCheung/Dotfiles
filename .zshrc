@@ -21,6 +21,7 @@ alias clock='tty-clock -c -C 2 -t'
 alias reboot='sudo systemctl reboot'
 alias poweroff='sudo systemctl poweroff'
 alias rmdir='rm -rf'
+alias wifi='nmcli device wifi'
 
 # Directory traversal
 alias ..="cd .."
