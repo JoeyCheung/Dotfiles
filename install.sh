@@ -18,7 +18,8 @@ sudo pacman -S unzip
 wget https://downloads.tuxfamily.org/godotengine/3.0.6/Godot_v3.0.6-stable_x11.64.zip
 unzip Godot_v3.0.6-stable_x11.64.zip
 chmod 777 Godot_v3.0.6-stable_x11.64
-mv Godot_v3.0.6-stable_x11.64 godot /usr/bin
+mv Godot_v3.0.6-stable_x11.64 godot
+mv Godot_v3.0.6-stable_x11.64 /usr/bin
 sudo rm -rf Godot_v3.0.6-stable_x11.64.zip
 cd $HOME
 
