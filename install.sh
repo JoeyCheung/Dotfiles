@@ -29,7 +29,7 @@ cd src/VSCode-linux-x64
 chmod 777 code
 mv code vscode
 
-#install android studio (finish this one)
+#install android studio (finish this one) (Possibly finished with this, but not sure)
 wget https://dl.google.com/dl/android/studio/ide-zips/3.2.0.26/android-studio-ide-181.5014246-linux.zip
 unzip android-studio-ide-181.5014246-linux.zip
 cd android-studio/bin
@@ -46,6 +46,9 @@ mkdir polybar/build
 cd polybar/build
 cmake ..
 sudo make install
+
+#install pacaur
+sudo pacman -S pacaur
 
 #install eclipse
 sudo pacman -S eclipse-java
