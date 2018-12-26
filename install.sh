@@ -29,7 +29,7 @@ sudo pacman -S lsof
 git clone https://aur.archlinux.org/visual-studio-code-bin.git
 cd visual-studio-code-bin
 makepkg
-tar -xvf visual-studio-code-bin-1.27.2-1-x86_64.pkg.tar.xz
+tar -xvf visual-studio-code-bin-1.30.1-1-x86_64.pkg.tar.xz
 cd src/VSCode-linux-x64
 chmod 777 code
 mv code vscode
