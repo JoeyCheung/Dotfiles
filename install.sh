@@ -43,7 +43,6 @@ chmod 777 studio.sh
 mv studio.sh android-studio
 cd ../..
 rm -rf android-studio-ide-181.5014246-linux.zip
-mv android-studio $HOME
 cd $HOME
 
 #install polybar
