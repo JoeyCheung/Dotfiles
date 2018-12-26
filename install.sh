@@ -46,6 +46,7 @@ rm -rf android-studio-ide-181.5014246-linux.zip
 cd $HOME
 
 #install polybar
+sudo pacman -S cmake
 git clone --branch 3.2 --recursive https://github.com/jaagr/polybar
 mkdir polybar/build
 cd polybar/build
