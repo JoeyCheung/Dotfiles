@@ -1,8 +1,19 @@
 #Files that use wget might have to be done manually because of updates
 
+#changing permisions
+cd $HOME
+cd ../..
+sudo chmod 777 usr
+cd usr
+sudo chmod 777 bin
+cd $HOME
+cd usr/lib/python3.7/
+sudo chmod 777 site-packages
+cd $HOME
+
 #install python modules
 pip install scrapy
-pip install tensorflow
+pip install tensorflow # might not work because of the latest python version so just have to wait for that one to come out
 pip install discord
 pip install selenium
 pip install gym
@@ -21,9 +32,6 @@ sudo pacman -S pycharm-community-edition
 
 #install geckodriver
 sudo pacman -S geckodriver
-
-#install cava
-git clone https://aur.archlinux.org/cava.git
 
 #install neofetch
 sudo pacman -S neofetch
@@ -63,14 +71,6 @@ sudo pacman -S compton
 
 #install feh
 sudo pacman -S feh
-
-#changing permisions
-cd $HOME
-cd ../..
-sudo chmod 777 usr
-cd usr
-sudo chmod 777 bin
-cd $HOME
 
 #install anaconda
 wget http://repo.continuum.io/archive/Anaconda3-5.0.0-Linux-x86_64.sh
