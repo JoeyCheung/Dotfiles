@@ -143,7 +143,7 @@ npm install
 npm start
 cd $HOME
 
-#install prezto
+#install prezto (might have to do this one manually)
 cd $HOME
 zsh
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
