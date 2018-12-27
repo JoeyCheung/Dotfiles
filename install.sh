@@ -1,5 +1,69 @@
 #Files that use wget might have to be done manually because of updates
 
+#install python modules
+pip install scrapy
+pip install tensorflow
+pip install discord
+pip install selenium
+pip install gym
+pip install numpy
+pip install pandas
+pip install scikit-learn
+
+#install pacaur
+sudo pacman -S pacaur
+
+#install eclipse
+sudo pacman -S eclipse-java
+
+#install pycharm
+sudo pacman -S pycharm-community-edition
+
+#install geckodriver
+sudo pacman -S geckodriver
+
+#install cava
+git clone https://aur.archlinux.org/cava.git
+
+#install neofetch
+sudo pacman -S neofetch
+
+#install ranger
+sudo pacman -S ranger
+
+#install i3-gaps
+sudo pacman -S i3-gaps
+
+#install qutebrowser
+sudo pacman -S qutebrowser
+
+#install rofi
+sudo pacman -S rofi
+
+#install vim
+sudo pacman -S vim
+
+#install rxvt-unicode
+sudo pacman -S rxvt-unicode
+
+#install w3m
+sudo pacman -S w3m
+
+#install surfraw
+sudo pacman -S surfraw
+
+#install numlockx
+sudo pacman -S numlockx
+
+#install scrot
+sudo pacman -S scrot
+
+#install compton
+sudo pacman -S compton
+
+#install feh
+sudo pacman -S feh
+
 #changing permisions
 cd $HOME
 cd ../..
@@ -54,15 +118,6 @@ cmake ..
 sudo make install
 cd $HOME
 
-#install pacaur
-sudo pacman -S pacaur
-
-#install eclipse
-sudo pacman -S eclipse-java
-
-#install pycharm
-sudo pacman -S pycharm-community-edition
-
 #install tty-clock
 git clone https://aur.archlinux.org/tty-clock.git
 cd tty-clock
@@ -88,30 +143,6 @@ npm install
 npm start
 cd $HOME
 
-#install geckodriver
-sudo pacman -S geckodriver
-
-#install cava
-git clone https://aur.archlinux.org/cava.git
-
-#install neofetch
-sudo pacman -S neofetch
-
-#install ranger
-sudo pacman -S ranger
-
-#install i3-gaps
-sudo pacman -S i3-gaps
-
-#install qutebrowser
-sudo pacman -S qutebrowser
-
-#install rofi
-sudo pacman -S rofi
-
-#install vim
-sudo pacman -S vim
-
 #install prezto
 cd $HOME
 zsh
@@ -122,34 +153,3 @@ for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
 done
 chsh -s /bin/zsh
 cd $HOME
-
-#install rxvt-unicode
-sudo pacman -S rxvt-unicode
-
-#install w3m
-sudo pacman -S w3m
-
-#install surfraw
-sudo pacman -S surfraw
-
-#install numlockx
-sudo pacman -S numlockx
-
-#install scrot
-sudo pacman -S scrot
-
-#install compton
-sudo pacman -S compton
-
-#install feh
-sudo pacman -S feh
-
-#install python modules
-pip install scrapy
-pip install tensorflow
-pip install discord
-pip install selenium
-pip install gym
-pip install numpy
-pip install pandas
-pip install scikit-learn
