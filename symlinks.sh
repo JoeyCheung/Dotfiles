@@ -15,4 +15,14 @@ ln -sf "$DOTFILES_DIR/.pythonrc" ~
 ln -sf "$DOTFILES_DIR/.gtkrc-2.0" ~
 ln -sf "$DOTFILES_DIR/.Xresources" ~
 
+source ~/.gitconfig
+source ~/.gitignore_global
 source ~/.zshrc
+source ~/.zpreztorc
+source ~/.zshenv
+source ~/.xinitrc
+source ~/.vimrc
+source ~/.config
+source ~/.pythonrc
+source ~/.gtkrc-2.0
+source ~/.Xresources
