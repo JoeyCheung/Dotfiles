@@ -73,7 +73,7 @@ sudo make install
 cd $HOME
 
 #install apache spark 
-apache.claz.org/spark/spark-2.3.2/spark-2.3.2-bin-hadoop2.7.tgz
+wget apache.claz.org/spark/spark-2.3.2/spark-2.3.2-bin-hadoop2.7.tgz
 tar -xvf spark-2.3.2-bin-hadoop2.7.tgz
 rm -rf spark-2.3.2-bin-hadoop2.7.tgz
 mv spark-2.3.2-bin-hadoop2.7 $HOME
