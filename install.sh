@@ -91,8 +91,8 @@ cd $HOME
 #install geckodriver
 sudo pacman -S geckodriver
 
-#install cava (might have messed this one up can't remember exactly how but shouldn't be too difficult to do again)
-sudo pacman -S base-devel fftw ncurses alsa-lib iniparser pulseaudio
+#install cava
+git clone https://aur.archlinux.org/cava.git
 
 #install neofetch
 sudo pacman -S neofetch
