@@ -7,7 +7,7 @@ sudo chmod 777 usr
 cd usr
 sudo chmod 777 bin
 cd $HOME
-cd usr/lib/python3.7/
+cd usr/lib/python3.7/ # might have to change python folder based off what the latest version is
 sudo chmod 777 site-packages
 cd $HOME
 
