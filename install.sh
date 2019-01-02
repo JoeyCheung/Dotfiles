@@ -144,6 +144,10 @@ npm install
 npm start
 cd $HOME
 
+#install npm modules
+npm install xml2json
+npm install json2csv
+
 #install prezto (might have to do this one manually)
 cd $HOME
 zsh
