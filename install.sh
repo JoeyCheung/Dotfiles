@@ -146,6 +146,7 @@ mv spark-2.3.2-bin-hadoop2.7 $HOME
 cd $HOME
 
 #install electron
+cd $HOME
 sudo pacman -S nodejs
 sudo pacman -S npm
 git clone https://github.com/electron/electron-api-demos
