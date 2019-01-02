@@ -22,6 +22,9 @@ pip install pandas
 pip install scikit-learn
 pip install csvkit
 
+#install jq
+sudo pacman -S jq
+
 #install pacaur
 sudo pacman -S pacaur
 
