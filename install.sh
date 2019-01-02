@@ -155,6 +155,13 @@ npm install
 npm start
 cd $HOME
 
+#install parallel
+wget http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2
+tar -xvjf parallel-latest.tar.bz2 > extracted-files
+cd $(head -n 1 extracted-files)
+./configure && make && sudo make install
+parallel --version | head -n 1
+
 #install npm modules
 npm install xml2json
 npm install json2csv
