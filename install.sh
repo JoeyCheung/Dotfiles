@@ -22,8 +22,11 @@ pip install pandas
 pip install scikit-learn
 pip install csvkit
 
-#install gnuplot
+#install r
+sudo pacman -S gcc-fortran
+sudo pacman -S r
 
+#install gnuplot
 sudo pacman -S gnuplot
 
 #install jq
