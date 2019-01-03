@@ -21,6 +21,7 @@ pip install numpy
 pip install pandas
 pip install scikit-learn
 pip install csvkit
+pip3 install atari-py
 
 #install r
 sudo pacman -S gcc-fortran
@@ -165,6 +166,14 @@ parallel --version | head -n 1
 #install npm modules
 npm install xml2json
 npm install json2csv
+
+#add box.py to file:///home/nyjoey/anaconda3/lib/python3.6/site-packages/gym/spaces/box.py
+cd $HOME
+cd Dotfiles
+cp box.py temp.py
+mv box.py /home/nyjoey/anaconda3/lib/python3.6/site-packages/gym/spaces
+mv temp.py box.py
+cd $HOME
 
 #install prezto (might have to do this one manually)
 cd $HOME
