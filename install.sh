@@ -10,6 +10,9 @@ cd $HOME
 cd usr/lib/python3.7/ # might have to change python folder based off what the latest version is
 sudo chmod 777 site-packages
 cd $HOME
+cd Dotfiles
+chmod 777 connectToWifi.sh
+cd $HOME
 
 #install python modules
 pip install scrapy
