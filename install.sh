@@ -24,7 +24,15 @@ pip install numpy
 pip install pandas
 pip install scikit-learn
 pip install csvkit
+pip install scrape
 pip3 install atari-py
+
+#install beautifulsoup for python
+cd $HOME
+git clone https://github.com/waylan/beautifulsoup.git
+cd beautifulsoup
+python setup.py install
+cd $HOME
 
 #install r
 sudo pacman -S gcc-fortran
