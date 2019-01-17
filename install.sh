@@ -96,11 +96,13 @@ sudo pacman -S compton
 sudo pacman -S feh
 
 #install anaconda
+cd $HOME
 wget http://repo.continuum.io/archive/Anaconda3-5.0.0-Linux-x86_64.sh
 bash Anaconda3-5.0.0-Linux-x86_64.sh
 cd $HOME
 
 #install godot
+cd $HOME
 sudo pacman -S unzip
 wget https://downloads.tuxfamily.org/godotengine/3.0.6/Godot_v3.0.6-stable_x11.64.zip
 unzip Godot_v3.0.6-stable_x11.64.zip
@@ -111,6 +113,7 @@ sudo rm -rf Godot_v3.0.6-stable_x11.64.zip
 cd $HOME
 
 #install visual studio code
+cd $HOME
 sudo pacman -S gconf
 sudo pacman -S lsof
 git clone https://aur.archlinux.org/visual-studio-code-bin.git
@@ -123,6 +126,7 @@ mv code vscode
 cd $HOME
 
 #install android studio (finish this one) (Possibly finished with this, but not sure)
+cd $HOME
 wget https://dl.google.com/dl/android/studio/ide-zips/3.2.0.26/android-studio-ide-181.5014246-linux.zip
 unzip android-studio-ide-181.5014246-linux.zip
 cd android-studio/bin
@@ -133,6 +137,7 @@ rm -rf android-studio-ide-181.5014246-linux.zip
 cd $HOME
 
 #install polybar
+cd $HOME
 sudo pacman -S cmake
 git clone --branch 3.2 --recursive https://github.com/jaagr/polybar
 mkdir polybar/build
@@ -142,6 +147,7 @@ sudo make install
 cd $HOME
 
 #install tty-clock
+cd $HOME
 git clone https://aur.archlinux.org/tty-clock.git
 cd tty-clock
 makepkg
@@ -151,6 +157,7 @@ sudo make install
 cd $HOME
 
 #install apache spark 
+cd $HOME
 wget apache.claz.org/spark/spark-2.3.2/spark-2.3.2-bin-hadoop2.7.tgz
 tar -xvf spark-2.3.2-bin-hadoop2.7.tgz
 rm -rf spark-2.3.2-bin-hadoop2.7.tgz
@@ -168,15 +175,19 @@ npm start
 cd $HOME
 
 #install parallel
+cd $HOME
 wget http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2
 tar -xvjf parallel-latest.tar.bz2 > extracted-files
 cd $(head -n 1 extracted-files)
 ./configure && make && sudo make install
 parallel --version | head -n 1
+cd $HOME
 
 #install npm modules
+cd $HOME
 npm install xml2json
 npm install json2csv
+cd $HOME
 
 #add box.py to file:///home/nyjoey/anaconda3/lib/python3.6/site-packages/gym/spaces/box.py
 cd $HOME
