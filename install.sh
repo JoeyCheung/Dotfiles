@@ -95,8 +95,8 @@ sudo pacman -S compton
 #install feh
 sudo pacman -S feh
 
-#install codeblocks
-sudo pacman -S codeblocks
+#install kdevelop
+sudo pacman -S kdevelop
 
 #install anaconda
 cd $HOME
