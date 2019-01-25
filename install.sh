@@ -95,9 +95,6 @@ sudo pacman -S compton
 #install feh
 sudo pacman -S feh
 
-#install kdevelop
-sudo pacman -S kdevelop
-
 #install anaconda
 cd $HOME
 wget http://repo.continuum.io/archive/Anaconda3-5.0.0-Linux-x86_64.sh
