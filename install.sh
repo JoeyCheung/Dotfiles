@@ -26,6 +26,7 @@ pip install scikit-learn
 pip install csvkit
 pip install scrape
 pip3 install atari-py
+pip install opencv-python
 
 #install beautifulsoup for python
 cd $HOME
