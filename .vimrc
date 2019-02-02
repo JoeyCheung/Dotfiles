@@ -1,9 +1,6 @@
 set nocompatible
-syntax on
 set nowrap
 set encoding=utf8
-
-execute pathogen#infect()
 
 """" START Vundle Configuration 
 
@@ -165,12 +162,14 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
+let g:syntastic_debug=1
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 " let g:syntastic_check_on_wq = 0
 " let g:syntastic_enable_elixir_checker = 1
 " let g:syntastic_elixir_checkers = ["elixir"]
+let g:syntastic_cpp_checkers = ['clang_check', 'gcc']
 
 " Neomake settings
 autocmd! BufWritePost * Neomake
