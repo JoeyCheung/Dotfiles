@@ -22,6 +22,7 @@ alias reboot='sudo systemctl reboot'
 alias poweroff='sudo systemctl poweroff'
 alias rmdir='rm -rf'
 alias wifi='nmcli device wifi'
+alias trash=' rm -rf ~/.local/share/Trash/*'
 alias connect='source connectToWifi.sh' #Type wifi name then password
 
 # Directory traversal
