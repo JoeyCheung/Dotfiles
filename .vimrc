@@ -31,7 +31,6 @@ Plugin 'jeetsukumaran/vim-buffergator'
 Plugin 'gilsondev/searchtasks.vim'
 Plugin 'Shougo/neocomplete.vim'
 Plugin 'tpope/vim-dispatch'
-Plugin 'Valloric/YouCompleteMe'
 
 " Generic Programming Support 
 Plugin 'jakedouglas/exuberant-ctags'
@@ -215,11 +214,6 @@ let g:acp_enableAtStartup = 0
 let g:neocomplete#enable_at_startup = 1
 let g:neocomplete#enable_smart_case = 1
 let g:neocomplete#sources#syntax#min_keyword_length = 3
-
-" YouCompleteMe Settings
-let g:ycm_global_ycm_extra_conf = "/home/nyjoey/Dotfiles/.vim/.ycm_extra_conf.py"
-let g:ycm_key_list_select_completion=[]
-let g:ycm_key_list_previous_completion=[]
 
 " Define dictionary.
 let g:neocomplete#sources#dictionary#dictionaries = {
