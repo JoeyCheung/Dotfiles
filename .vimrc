@@ -1,6 +1,8 @@
-set nocompatible
 set nowrap
+syntax on
 set encoding=utf8
+
+execute pathogen#infect()
 
 """" START Vundle Configuration 
 
