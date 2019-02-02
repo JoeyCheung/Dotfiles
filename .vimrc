@@ -3,6 +3,8 @@ syntax on
 set nowrap
 set encoding=utf8
 
+execute pathogen#infect()
+
 """" START Vundle Configuration 
 
 " Disable file type for vundle
@@ -33,7 +35,8 @@ Plugin 'Shougo/neocomplete.vim'
 Plugin 'tpope/vim-dispatch'
 
 " Generic Programming Support 
-Plugin 'jakedouglas/exuberant-ctags'
+Plugin 'xolox/vim-easytags'
+Plugin 'xolox/vim-misc'
 Plugin 'honza/vim-snippets'
 Plugin 'Townk/vim-autoclose'
 Plugin 'tomtom/tcomment_vim'
@@ -58,6 +61,9 @@ Plugin 'tpope/vim-fugitive'
 " PHP Support
 Plugin 'phpvim/phpcd.vim'
 Plugin 'tobyS/pdv'
+
+"C++ Support
+Plugin 'Valloric/YouCompleteMe'
 
 " Erlang Support
 Plugin 'vim-erlang/vim-erlang-tags'
@@ -100,6 +106,7 @@ Plugin 'effkay/argonaut.vim'
 Plugin 'ajh17/Spacegray.vim'
 Plugin 'atelierbram/Base2Tone-vim'
 Plugin 'colepeters/spacemacs-theme.vim'
+
 
 " OSX stupid backspace fix
 set backspace=indent,eol,start
