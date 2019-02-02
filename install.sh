@@ -27,7 +27,6 @@ pip install csvkit
 pip install scrape
 pip3 install atari-py
 pip install opencv-python
-pip install --ignore-installed flake8
 
 #install beautifulsoup for python
 cd $HOME
