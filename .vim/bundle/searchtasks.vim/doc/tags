@@ -1,0 +1,7 @@
+searchtasks	searchtasks.txt	/*searchtasks*
+searchtasks-:SearchTasks	searchtasks.txt	/*searchtasks-:SearchTasks*
+searchtasks-:SearchTasksGrep	searchtasks.txt	/*searchtasks-:SearchTasksGrep*
+searchtasks-commands	searchtasks.txt	/*searchtasks-commands*
+searchtasks-configurations	searchtasks.txt	/*searchtasks-configurations*
+searchtasks-introduction	searchtasks.txt	/*searchtasks-introduction*
+searchtasks.vim	searchtasks.txt	/*searchtasks.vim*
