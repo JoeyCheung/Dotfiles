@@ -96,6 +96,14 @@ sudo pacman -S compton
 #install feh
 sudo pacman -S feh
 
+#move ctags to $HOME
+cd $HOME
+cd Dotfiles
+cp -r ctags-5.8 temp
+mv ctags-5.8 $HOME
+mv temp ctags-5.8
+cd $HOME
+
 #install vim plugins and Vundle
 cd $HOME
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
