@@ -204,6 +204,15 @@ npm install xml2json
 npm install json2csv
 cd $HOME
 
+#install codelite
+git clone https://github.com/eranif/codelite.git
+cd codelite
+mkdir build-release
+cd build-release
+cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release ..
+make -j4
+sudo make install
+
 #add box.py to file:///home/nyjoey/anaconda3/lib/python3.6/site-packages/gym/spaces/box.py
 cd $HOME
 cd Dotfiles
