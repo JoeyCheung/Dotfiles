@@ -24,6 +24,7 @@ alias rmdir='rm -rf'
 alias wifi='nmcli device wifi'
 alias trash=' rm -rf ~/.local/share/Trash/*'
 alias connect='source connectToWifi.sh' #Type wifi name then password
+alias school='ssh chjo5232@mars.cs.qc.cuny.edu '
 
 # Directory traversal
 alias ..="cd .."
