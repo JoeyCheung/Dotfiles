@@ -26,6 +26,7 @@ alias trash=' rm -rf ~/.local/share/Trash/*'
 alias connect='source connectToWifi.sh' #Type wifi name then password
 alias school='ssh chjo5232@mars.cs.qc.cuny.edu '
 alias reactjs='create-react-app' #Type the project name for react to create the project
+alias video='xdg-open' #Type the name of the video to play the video
 
 # Directory traversal
 alias ..="cd .."
