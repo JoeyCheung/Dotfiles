@@ -25,6 +25,7 @@ alias wifi='nmcli device wifi'
 alias trash=' rm -rf ~/.local/share/Trash/*'
 alias connect='source connectToWifi.sh' #Type wifi name then password
 alias school='ssh chjo5232@mars.cs.qc.cuny.edu '
+alias reactjs='create-react-app' #Type the project name for react to create the project
 
 # Directory traversal
 alias ..="cd .."

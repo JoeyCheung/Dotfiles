@@ -27,6 +27,7 @@ pip install csvkit
 pip install scrape
 pip3 install atari-py
 pip install opencv-python
+pip install pytube
 
 #install beautifulsoup for python
 cd $HOME
@@ -203,6 +204,9 @@ cd $HOME
 npm install xml2json
 npm install json2csv
 cd $HOME
+
+#install reactjs
+sudo npm install create-react-app -g 
 
 #add box.py to file:///home/nyjoey/anaconda3/lib/python3.6/site-packages/gym/spaces/box.py
 cd $HOME
