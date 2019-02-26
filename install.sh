@@ -152,6 +152,9 @@ cd ../..
 rm -rf android-studio-ide-181.5014246-linux.zip
 cd $HOME
 
+#install gdb
+sudo pacman -S gdb
+
 #install polybar
 cd $HOME
 sudo pacman -S cmake
