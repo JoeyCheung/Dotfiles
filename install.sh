@@ -152,7 +152,7 @@ cd ../..
 rm -rf android-studio-ide-181.5014246-linux.zip
 cd $HOME
 
-#install gdb
+#install gdb (Make sure to use :packadd termdebug to download this in vim
 sudo pacman -S gdb
 
 #install polybar
