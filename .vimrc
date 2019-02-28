@@ -302,6 +302,10 @@ let g:fzf_layout = { 'down': '~40%' }
 let g:fzf_layout = { 'window': 'enew' }
 let g:fzf_layout = { 'window': '-tabnew' }
 
+" NERDTree configuration
+autocmd vimenter * NERDTree
+autocmd VimEnter * wincmd p
+
 " Customize fzf colors to match your color scheme
 let g:fzf_colors =
 \ { 'fg':      ['fg', 'Normal'],
