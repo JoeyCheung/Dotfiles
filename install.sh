@@ -206,6 +206,7 @@ cd $HOME
 cd $HOME
 npm install xml2json
 npm install json2csv
+npm install uuid
 cd $HOME
 
 #install reactjs
