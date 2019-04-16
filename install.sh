@@ -208,6 +208,7 @@ npm install xml2json
 npm install json2csv
 npm install uuid
 npm install react-router-dom
+npm install axios
 cd $HOME
 
 #install reactjs
