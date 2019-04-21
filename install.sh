@@ -205,7 +205,7 @@ cd $HOME
 #install npm modules
 cd $HOME
 npm install xml2json
-npm install json2csv
+sudo npm install json2csv
 npm install uuid
 npm install react-router-dom
 cd $HOME
