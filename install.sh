@@ -213,6 +213,9 @@ cd $HOME
 #install reactjs
 sudo npm install create-react-app -g 
 
+#install vim plugins with vundle
+vim +PluginInstall +qall
+
 #add box.py to file:///home/nyjoey/anaconda3/lib/python3.6/site-packages/gym/spaces/box.py
 cd $HOME
 cd Dotfiles
