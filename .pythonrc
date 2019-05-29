@@ -2,8 +2,4 @@ print("how_to_use_pythonstartup")
 
 import numpy as np
 import pandas as pd
-import tensorflow as tf
-import gym
-import scrapy
-import sklearn
-import pytube
+import matplotlib as plt
