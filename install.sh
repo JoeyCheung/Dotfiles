@@ -36,6 +36,9 @@ cd beautifulsoup
 python setup.py install
 cd $HOME
 
+#install gnome-latex
+sudo pacman -S gnome-latex
+
 #install r
 sudo pacman -S gcc-fortran
 sudo pacman -S r
