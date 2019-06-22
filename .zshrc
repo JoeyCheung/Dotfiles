@@ -27,6 +27,7 @@ alias connect='source connectToWifi.sh' #Type wifi name then password
 alias school='ssh chjo5232@mars.cs.qc.cuny.edu '
 alias reactjs='create-react-app' #Type the project name for react to create the project
 alias video='xdg-open' #Type the name of the video to play the video
+alias dope='source dope.sh' #Goes to edex-ui and runs npm start for dope hacker interface
 
 # Directory traversal
 alias ..="cd .."

@@ -12,6 +12,9 @@ sudo chmod 777 site-packages
 cd $HOME
 cd Dotfiles
 chmod 777 connectToWifi.sh
+chmod 777 dope.sh
+mv connectToWifi.sh /usr/bin/
+mv dope.sh /usr/bin/
 cd $HOME
 
 #install python modules
@@ -218,6 +221,15 @@ sudo npm install create-react-app -g
 
 #install vim plugins with vundle
 vim +PluginInstall +qall
+
+#install edex-ui (Hacker layout)
+$HOME
+git clone https://github.com/GitSquared/edex-ui.git
+cd edex-ui
+npm install
+npm run build-linux
+npm run install-linux
+$HOME
 
 #add box.py to file:///home/nyjoey/anaconda3/lib/python3.6/site-packages/gym/spaces/box.py
 cd $HOME
