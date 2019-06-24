@@ -31,6 +31,7 @@ pip install scrape
 pip3 install atari-py
 pip install opencv-python
 pip install pytube
+pip install instagram-scraper
 
 #install beautifulsoup for python
 cd $HOME
