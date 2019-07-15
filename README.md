@@ -1,7 +1,5 @@
 # Dotfiles
 
-use nmtui command to connect to wifi
-
 ![2018-09-19_144842_1920x1080](https://user-images.githubusercontent.com/30446022/45889706-1ed44180-bd8f-11e8-9a9e-07ef7399dd8b.png)
 
 # How to install
@@ -11,5 +9,9 @@ use nmtui command to connect to wifi
 3) Run source symlinks.sh or ./symlinks.sh (This will run all the dotfiles and connect them to the system)
 
 When running all of these, make sure that all of the dotfiles are moved into the home directory or some commands might not work properly
+
+# Issues
+
+Try to figure out to get vim and it's plugins to work properly. Everything else so far seems to be working.
 
 Enjoy!
