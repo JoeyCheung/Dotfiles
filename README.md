@@ -17,7 +17,7 @@ When running all of these, make sure that all of the dotfiles are moved into the
 - Command not found: prompt error after installing then running symlinks
 - Make vim the default text editor in ranger
 
-# Frequently Ask Questions
+# Frequently Asked Questions
 
 Q: Why is Wifi/Connect alias commands not working? 
 
