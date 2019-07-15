@@ -14,6 +14,7 @@ When running all of these, make sure that all of the dotfiles are moved into the
 
 - Try to figure out how to get vim and it's plugins to work properly.
 - Make zsh automated to become the default shell.
+- Command not found: prompt error after installing then running symlinks
 
 # Frequently Ask Questions
 
