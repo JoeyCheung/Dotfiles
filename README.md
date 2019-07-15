@@ -13,6 +13,11 @@ When running all of these, make sure that all of the dotfiles are moved into the
 # Issues
 
 Try to figure out to get vim and it's plugins to work properly.
-Figure out wifi alias in .zshrc and nmcli command and why it's not showing networks, then try connecting to it with terminal.
+
+# Frequently Ask Questions
+
+Q. Why is Wifi/Connect alias commands not working? 
+
+A. If you are wired in through an ethernet, it will not show wifi connections.
 
 Enjoy!
