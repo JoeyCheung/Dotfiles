@@ -4,6 +4,8 @@
 
 # How to install
 
+- git clone 
+- cd into folder
 - Run source install.sh
 - After installation run source remove.sh (This gets rid of all of the dotfiles that were created. Don't worry you'll be replacing it with the ones that I have in this repo)
 - Run source symlinks.sh (This will run all the dotfiles and connect them to the system)
