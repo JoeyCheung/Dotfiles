@@ -6,7 +6,7 @@ use nmtui command to connect to wifi
 
 # How to install
 
-1) run source install.sh or ./install.sh
+1) Run source install.sh or ./install.sh
 2) After installation run source remove.sh or ./remove.sh (This gets rid of all of the created dotfiles that were created. Don't worry you'll be replacing it with the ones that I have in this repo)
 3) Run source symlinks.sh or ./symlinks.sh (This will run all the dotfiles and connect them to the system)
 
