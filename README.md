@@ -12,7 +12,7 @@ When running all of these, make sure that all of the dotfiles are moved into the
 
 # Issues
 
-- Try to figure out to get vim and it's plugins to work properly.
+- Try to figure out how to get vim and it's plugins to work properly.
 
 # Frequently Ask Questions
 
