@@ -104,16 +104,6 @@ sudo pacman -S compton
 #install feh
 sudo pacman -S feh
 
-#install cava
-cd $HOME
-git clone https://github.com/karlstav/cava.git
-cd cava
-./autogen.sh
-./configure
-make
-sudo make install
-cd $HOME
-
 #move ctags to $HOME
 cd $HOME
 cd Dotfiles
