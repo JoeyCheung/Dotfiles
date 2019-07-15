@@ -172,7 +172,7 @@ cd $HOME
 #install gdb (Make sure to use :packadd termdebug to download this in vim
 sudo pacman -S gdb
 
-#install polybar
+#install polybar (not sure if this works so I downloaded it polybar from the pacman package manager and it should work now)
 cd $HOME
 sudo pacman -S cmake
 git clone --branch 3.2 --recursive https://github.com/jaagr/polybar
@@ -181,6 +181,8 @@ cd polybar/build
 cmake ..
 sudo make install
 cd $HOME
+
+sudo pacman -S polybar
 
 #install tty-clock
 cd $HOME
