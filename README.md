@@ -13,6 +13,7 @@ When running all of these, make sure that all of the dotfiles are moved into the
 # Issues
 
 - Try to figure out how to get vim and it's plugins to work properly.
+- Make zsh automated to become the default shell.
 
 # Frequently Ask Questions
 
