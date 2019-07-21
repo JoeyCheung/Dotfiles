@@ -130,6 +130,12 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall
 cd $HOME
 
+#install YouCompleteme correctly
+cd $HOME
+cd .vim/bundle/YouCompleteMe
+python install.py
+cd $HOME
+
 #install anaconda
 cd $HOME
 wget http://repo.continuum.io/archive/Anaconda3-5.0.0-Linux-x86_64.sh
