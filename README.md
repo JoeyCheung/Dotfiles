@@ -10,7 +10,7 @@
 - After installation run source remove.sh (This gets rid of all of the dotfiles that were created. Don't worry you'll be replacing it with the ones that I have in this repo)
 - Run source symlinks.sh (This will run all the dotfiles and connect them to the system)
 
-When running all of these, make sure that all of the dotfiles are moved into the home directory and that autoload is placed into .vim folder or some commands might not work properly
+When running all of these, make sure that all of the dotfiles are moved into the home directory and that autoload is placed into .vim folder then run "vim +PluginInstall +qall" or some commands might not work properly
 
 # Issues
 
