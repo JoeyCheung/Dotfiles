@@ -120,6 +120,8 @@ cd Dotfiles
 cp -r ctags-5.8 temp
 mv ctags-5.8 $HOME
 mv temp ctags-5.8
+cd ctags-5.8 
+sudo make install
 cd $HOME
 
 #install vim plugins and Vundle
