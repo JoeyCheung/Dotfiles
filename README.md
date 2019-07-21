@@ -17,6 +17,7 @@ When running all of these, make sure that all of the dotfiles are moved into the
 - Make zsh automated to become the default shell.
 - Command not found: prompt error after installing then running symlinks
 - Make vim the default text editor in ranger
+- Remove unnecessary packages that you don't need from install.sh (mostly because anaconda has most things built in)
 
 # Frequently Asked Questions
 
