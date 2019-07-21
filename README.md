@@ -23,3 +23,7 @@ When running all of these, make sure that all of the dotfiles are moved into the
 Q: Why is Wifi/Connect alias commands not working? 
 
 A: If you are wired in through an ethernet, it will not show wifi connections.
+
+Q: How come vim can't read ctags?
+
+A: You have to go to the ctags-5.8 directory and type the command sudo make install
