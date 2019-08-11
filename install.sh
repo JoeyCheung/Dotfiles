@@ -270,3 +270,5 @@ for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
 done
 chsh -s /bin/zsh
 cd $HOME
+
+chsh -s /bin/zsh
