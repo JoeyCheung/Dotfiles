@@ -18,49 +18,36 @@ mv dope.sh /usr/bin/
 cd $HOME
 
 #install python modules
-pip install scrapy
-pip install tensorflow # might not work because of the latest python version so just have to wait for that one to come out
-pip install discord
-pip install selenium
-pip install gym
-pip install numpy
-pip install pandas
-pip install scikit-learn
-pip install csvkit
-pip install scrape
-pip3 install atari-py
-pip install opencv-python
-pip install pytube
-pip install instagram-scraper
+# pip install scrapy
+# pip install tensorflow # might not work because of the latest python version so just have to wait for that one to come out
+# pip install discord
+# pip install selenium
+# pip install gym
+# pip install numpy
+# pip install pandas
+# pip install scikit-learn
+# pip install csvkit
+# pip install scrape
+# pip3 install atari-py
+# pip install opencv-python
+# pip install pytube
+# pip install instagram-scraper
 
-#install beautifulsoup for python
-cd $HOME
-git clone https://github.com/waylan/beautifulsoup.git
-cd beautifulsoup
-python setup.py install
-cd $HOME
+# #install beautifulsoup for python
+# cd $HOME
+# git clone https://github.com/waylan/beautifulsoup.git
+# cd beautifulsoup
+# python setup.py install
+# cd $HOME
 
 #install gnome-latex
 sudo pacman -S gnome-latex
-
-#install r
-sudo pacman -S gcc-fortran
-sudo pacman -S r
-
-#install gnuplot
-sudo pacman -S gnuplot
 
 #install jq
 sudo pacman -S jq
 
 #install pacaur
 sudo pacman -S pacaur
-
-#install eclipse
-sudo pacman -S eclipse-java
-
-#install pycharm
-sudo pacman -S pycharm-community-edition
 
 #install geckodriver
 sudo pacman -S geckodriver
@@ -153,30 +140,6 @@ mv godot /usr/bin
 sudo rm -rf Godot_v3.0.6-stable_x11.64.zip
 cd $HOME
 
-#install visual studio code
-cd $HOME
-sudo pacman -S gconf
-sudo pacman -S lsof
-git clone https://aur.archlinux.org/visual-studio-code-bin.git
-cd visual-studio-code-bin
-makepkg
-tar -xvf visual-studio-code-bin-1.30.1-1-x86_64.pkg.tar.xz
-cd src/VSCode-linux-x64
-chmod 777 code
-mv code vscode
-cd $HOME
-
-#install android studio (finish this one) (Possibly finished with this, but not sure)
-cd $HOME
-wget https://dl.google.com/dl/android/studio/ide-zips/3.2.0.26/android-studio-ide-181.5014246-linux.zip
-unzip android-studio-ide-181.5014246-linux.zip
-cd android-studio/bin
-chmod 777 studio.sh
-mv studio.sh android-studio
-cd ../..
-rm -rf android-studio-ide-181.5014246-linux.zip
-cd $HOME
-
 #install gdb (Make sure to use :packadd termdebug to download this in vim
 sudo pacman -S gdb
 
@@ -202,43 +165,13 @@ cd src/tty-clock-2.3
 sudo make install
 cd $HOME
 
-#install apache spark 
-cd $HOME
-wget apache.claz.org/spark/spark-2.3.2/spark-2.3.2-bin-hadoop2.7.tgz
-tar -xvf spark-2.3.2-bin-hadoop2.7.tgz
-rm -rf spark-2.3.2-bin-hadoop2.7.tgz
-mv spark-2.3.2-bin-hadoop2.7 $HOME
-cd $HOME
-
-#install electron
-cd $HOME
-sudo pacman -S nodejs
-sudo pacman -S npm
-git clone https://github.com/electron/electron-api-demos
-cd electron-api-demos
-npm install
-npm start
-cd $HOME
-
-#install parallel
-cd $HOME
-wget http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2
-tar -xvjf parallel-latest.tar.bz2 > extracted-files
-cd $(head -n 1 extracted-files)
-./configure && make && sudo make install
-parallel --version | head -n 1
-cd $HOME
-
 #install npm modules
 cd $HOME
 npm install xml2json
 sudo npm install json2csv
 npm install uuid
 npm install react-router-dom
-cd $HOME
-
-#install reactjs
-sudo npm install create-react-app -g 
+cd $HOME 
 
 #install vim plugins with vundle
 vim +PluginInstall +qall
