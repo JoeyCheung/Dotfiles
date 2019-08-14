@@ -1,6 +1,6 @@
 #Files that use wget might have to be done manually because of updates
 
-#changing permisions
+#changing permissions
 cd $HOME
 cd ../..
 sudo chmod 777 usr
