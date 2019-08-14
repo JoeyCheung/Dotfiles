@@ -129,15 +129,17 @@ wget http://repo.continuum.io/archive/Anaconda3-5.0.0-Linux-x86_64.sh
 bash Anaconda3-5.0.0-Linux-x86_64.sh
 cd $HOME
 
-#install godot
+#install visual studio code
 cd $HOME
-sudo pacman -S unzip
-wget https://downloads.tuxfamily.org/godotengine/3.0.6/Godot_v3.0.6-stable_x11.64.zip
-unzip Godot_v3.0.6-stable_x11.64.zip
-chmod 777 Godot_v3.0.6-stable_x11.64
-mv Godot_v3.0.6-stable_x11.64 godot
-mv godot /usr/bin
-sudo rm -rf Godot_v3.0.6-stable_x11.64.zip
+sudo pacman -S gconf
+sudo pacman -S lsof
+git clone https://aur.archlinux.org/visual-studio-code-bin.git
+cd visual-studio-code-bin
+makepkg
+tar -xvf visual-studio-code-bin-1.30.1-1-x86_64.pkg.tar.xz
+cd src/VSCode-linux-x64
+chmod 777 code
+mv code vscode
 cd $HOME
 
 #install gdb (Make sure to use :packadd termdebug to download this in vim
