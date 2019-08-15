@@ -17,6 +17,7 @@ When running all of these, make sure that all of the dotfiles are moved into the
 - Make zsh automated to become the default shell.
 - Make vim the default text editor in ranger
 - possible kbd folder in roots directory that handles keyboard shortcuts (This is for dvorak layout) https://wiki.archlinux.org/index.php/Linux_console/Keyboard_configuration#Keymaps
+- Add keybindings in .vimrc file to run terminal commands inside of vim such as switching between qwerty and dvorak or running python code
 
 # Frequently Asked Questions
 
