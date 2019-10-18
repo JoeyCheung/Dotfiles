@@ -24,7 +24,7 @@ When running all of these, make sure that all of the dotfiles are moved into the
 
 Q: Why is Wifi/Connect alias commands not working? 
 
-A: If you are wired in through an ethernet, it will not show wifi connections.
+A: If you are wired in through an ethernet, it will not show wifi connections. Or just use nmtui command
 
 Q: How come vim can't read ctags?
 
