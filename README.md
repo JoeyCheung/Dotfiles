@@ -13,7 +13,7 @@
 When running all of these, make sure that all of the dotfiles are moved into the home directory, that autoload is placed into .vim folder then run "vim +PluginInstall +qall", and that you cd into .vim/bundle/YouCompleteMe and type this command "python install.py" to fix "YCM error. The ycmd server SHUT DOWN (restart wit…the instructions in the" error or some commands might not work properly
 
 # Issues
-
+- Make a cron job to automatically update package manager (sudo pacman -Syu)
 - Make zsh automated to become the default shell.
 - Make vim the default text editor in ranger
 - possible kbd folder in roots directory that handles keyboard shortcuts (This is for dvorak layout) https://wiki.archlinux.org/index.php/Linux_console/Keyboard_configuration#Keymaps
