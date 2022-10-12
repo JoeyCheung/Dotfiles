@@ -61,7 +61,7 @@ kubectl get pods -n knative-serving
 kubectl get pods -n kubeflow
 kubectl get pods -n kubeflow-user-example-com
 ```
-- Once everything is up and running you can run kubectl port-forward svc/istio-ingressgateway -n istio-system 8080:80 and go to http://localhost:8080
+- Once everything is up and running you can run ```kubectl port-forward svc/istio-ingressgateway -n istio-system 8080:80``` and go to http://localhost:8080
 
 # Testing examples 
 
