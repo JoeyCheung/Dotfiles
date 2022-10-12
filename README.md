@@ -42,9 +42,9 @@ sudo passwd (username) #enter password for user here
 su (username) 
 - Re-Login or Restart the Server
 ```
-- When trying to run Kubeflow, it may need a certain amount of resources or it won't work. This specifically worked for me minikube start --cpus 8 --memory 64000 but it could work with less 
+- When trying to run Kubeflow, it may need a certain amount of resources or it won't work. This specifically worked for me ```minikube start --cpus 8 --memory 64000``` but it could work with less 
 
-# installation
+# Installation
 
 - Run source install.sh (cpu size) (memory size)
 - That's it 
@@ -65,15 +65,19 @@ kubectl get pods -n kubeflow-user-example-com
 
 # Testing examples 
 
-Training files have already been included in here
+Training files have already been included in here:
 
-- kubectl apply -f random.yaml for hyper parameter tuning
-- kubectl apply -f simple.yaml for model training
+```
+kubectl apply -f random.yaml for hyper parameter tuning
+kubectl apply -f simple.yaml for model training
+```
 
-You can check and monitor these with 
+You can check and monitor these with:
 
-- kubectl -n kubeflow-user-example-com get experiment random -o yaml
-- kubectl -n kubeflow get tfjob tfjob-simple -o yaml 
+```
+kubectl -n kubeflow-user-example-com get experiment random -o yaml
+kubectl -n kubeflow get tfjob tfjob-simple -o yaml 
+```
 
 To serve a model and make an API out of it you can run the following: 
 
@@ -92,7 +96,9 @@ export INGRESS_HOST=$(minikube ip)
 export INGRESS_HOST=$(kubectl get po -l istio=ingressgateway -n istio-system -o jsonpath='{.items[0].status.hostIP}')
 export INGRESS_PORT=$(kubectl -n istio-system get service istio-ingressgateway -o jsonpath='{.spec.ports[?(@.name=="http2")].nodePort}')
 ```
+
 iris-input.json has the request body to be sent in. Make sure to add your session cookie for authservice_session. You can find it through your cookies then copy and paste that into the placeholder 
+
 ```
 #Example request
 SERVICE_HOSTNAME=$(kubectl get inferenceservice sklearn-iris -n kserve-test -o jsonpath='{.status.url}' | cut -d "/" -f 3)
@@ -100,6 +106,7 @@ curl -v -L -H "Host: ${SERVICE_HOSTNAME}" -H "Cookie: authservice_session=add_au
 ```
 
 Result should look like 
+
 ```
 *   Trying 10.152.183.241...
 * TCP_NODELAY set
