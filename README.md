@@ -77,11 +77,12 @@ You can check and monitor these with
 
 To serve a model and make an API out of it you can run the following: 
 
-- kubectl create namespace kserve-test
-- kubectl apply -f sklearn.yaml -n kserve-test (sklearn.yaml has already been included) 
-- kubectl get inferenceservices sklearn-iris -n kserve-test
-- kubectl get svc istio-ingressgateway -n istio-system
-- 
+``` 
+kubectl create namespace kserve-test
+kubectl apply -f sklearn.yaml -n kserve-test (sklearn.yaml has already been included) 
+kubectl get inferenceservices sklearn-iris -n kserve-test
+kubectl get svc istio-ingressgateway -n istio-system
+```
 ```
 # GKE
 export INGRESS_HOST=worker-node-address
@@ -91,7 +92,7 @@ export INGRESS_HOST=$(minikube ip)
 export INGRESS_HOST=$(kubectl get po -l istio=ingressgateway -n istio-system -o jsonpath='{.items[0].status.hostIP}')
 export INGRESS_PORT=$(kubectl -n istio-system get service istio-ingressgateway -o jsonpath='{.spec.ports[?(@.name=="http2")].nodePort}')
 ```
-- iris-input.json has the request body to be sent in. Make sure to add your session cookie for authservice_session. You can find it through your cookies then copy and paste that into the placeholder 
+iris-input.json has the request body to be sent in. Make sure to add your session cookie for authservice_session. You can find it through your cookies then copy and paste that into the placeholder 
 ```
 #Example request
 SERVICE_HOSTNAME=$(kubectl get inferenceservice sklearn-iris -n kserve-test -o jsonpath='{.status.url}' | cut -d "/" -f 3)
