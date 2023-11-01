@@ -1,5 +1,8 @@
 # Dotfiles
 
+https://github.com/JoeyCheung/Dotfiles/assets/30446022/78a35bdf-d4ab-42bb-bdcb-afa51b7423e2
+
+
 ![2018-09-19_144842_1920x1080](https://user-images.githubusercontent.com/30446022/45889706-1ed44180-bd8f-11e8-9a9e-07ef7399dd8b.png)
 
 # How to install
