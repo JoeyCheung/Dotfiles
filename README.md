@@ -29,3 +29,5 @@ A: If you are wired in through an ethernet, it will not show wifi connections. O
 Q: How come vim can't read ctags?
 
 A: You have to go to the ctags-5.8 directory and type the command sudo make install
+
+
